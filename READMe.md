@@ -26,12 +26,13 @@ pytest -n auto tests/vwoLoginTests/pom/test_*
 ### How to run Testcase parallel ?
 pytest -n auto tests/test/vwoLoginTests/test_vwo_login.py
 
-![Screenshot 2024-11-22 at 9 12 15 PM](https://github.com/user-attachments/assets/1108a0d3-2f71-472a-8121-f4f3d62f1291)
+![image](https://github.com/user-attachments/assets/8fa1a279-8ce1-410c-a90d-230af89f3d66)
+
 
 
 Dry Run Testcases 
+![image](https://github.com/user-attachments/assets/5caa5ae0-c9b1-4d67-b0a2-0b1bff2bcf7a)
 
-![Screenshot 2025-01-24 at 8 52 25 PM](https://github.com/user-attachments/assets/09bdd621-9e36-4787-846b-75a8332e0666)
 
 ![image](https://github.com/user-attachments/assets/626dec68-bcd2-4e0b-8db7-7ed7f6cde468)
 
