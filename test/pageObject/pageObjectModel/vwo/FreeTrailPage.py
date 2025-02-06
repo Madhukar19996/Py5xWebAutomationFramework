@@ -38,7 +38,7 @@ class FreeTrialPage:
         try:
             self.get_username_ft().send_keys(invalid_email)
 
-            webdriver_wait(driver=self.driver, element_tuple=self.checkbox_terms, timeout=8)
+            webdriver_wait(driver=self.driver, element_tuple=self.checkbox_terms, timeout=10)
 
             self.get_button_checkbox_terms().click()
             webdriver_wait(driver=self.driver, element_tuple=self.button_click_ft, timeout=8)

@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eb44172-9901-41ca-9d50-86b4a69bbcbc" name="Changes" comment="Adding files on 01-02-2025">
-      <change afterPath="$PROJECT_DIR$/test/constants/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObject/PageFactory/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObject/pageObjectModel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObject/pageObjectModel/vwo/DashboardPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObject/pageObjectModel/vwo/FreeTrailPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObject/pageObjectModel/vwo/LoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObject/pageObjectModel/vwo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_free_trail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/utils/common_utils.py" afterDir="false" />
+    <list default="true" id="0eb44172-9901-41ca-9d50-86b4a69bbcbc" name="Changes" comment="Adding files on 02-02-2025">
+      <change afterPath="$PROJECT_DIR$/test/pageObject/PageFactory/Dashboard_PageFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObject/PageFactory/loginPage_PageFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_login_PF.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageObject/pageObjectModel/vwo/FreeTrailPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageObject/pageObjectModel/vwo/FreeTrailPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_free_trail.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_free_trail.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -46,6 +42,9 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test/pageObject/PageFactory/Dashboard_PageFactory.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/pageObject/PageFactory/loginPage_PageFactory.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_login_PF.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test/utils/common_utils.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
@@ -57,32 +56,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_vwoLogin_NotOptimized.test_app_vwo_login_chrome.executor": "Run",
-    "Python tests.Python tests for test_vwo_free_trail.test_vwo_ft_negative.executor": "Run",
-    "Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor": "Run",
-    "Python tests.Python tests for test_vwo_login.test_vwo_login_positive.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_vwoLogin_NotOptimized.test_app_vwo_login_chrome.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_free_trail.test_vwo_ft_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_login.test_vwo_login_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_login_PF.TestVWOLogin.test_vwo_login_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_login_PF.TestVWOLogin.test_vwo_login_positive.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_vwo_free_trail.test_vwo_ft_negative">
-    <configuration name="Python tests for test_vwoLogin_NotOptimized.test_app_vwo_login_chrome" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Py5xWebAutomationFramework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/sample" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_vwoLogin_NotOptimized.test_app_vwo_login_chrome&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_vwo_login_PF.TestVWOLogin.test_vwo_login_negative">
     <configuration name="Python tests for test_vwo_free_trail.test_vwo_ft_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Py5xWebAutomationFramework" />
       <option name="ENV_FILES" value="" />
@@ -95,6 +81,36 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_vwo_free_trail.test_vwo_ft_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwo_login_PF.TestVWOLogin.test_vwo_login_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py5xWebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/vwoLogin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_login_PF.TestVWOLogin.test_vwo_login_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwo_login_PF.TestVWOLogin.test_vwo_login_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py5xWebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/vwoLogin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_login_PF.TestVWOLogin.test_vwo_login_positive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -130,10 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_vwo_login_PF.TestVWOLogin.test_vwo_login_negative" />
+        <item itemvalue="Python tests.Python tests for test_vwo_login_PF.TestVWOLogin.test_vwo_login_positive" />
         <item itemvalue="Python tests.Python tests for test_vwo_free_trail.test_vwo_ft_negative" />
         <item itemvalue="Python tests.Python tests for test_vwo_login.test_vwo_login_positive" />
         <item itemvalue="Python tests.Python tests for test_vwo_login.test_vwo_login_negative" />
-        <item itemvalue="Python tests.Python tests for test_vwoLogin_NotOptimized.test_app_vwo_login_chrome" />
       </list>
     </recent_temporary>
   </component>
@@ -153,10 +170,28 @@
       <option name="presentableId" value="Default" />
       <updated>1738421828224</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding files on 02-02-2025">
+      <option name="closed" value="true" />
+      <created>1738474874754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738474874754</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding files on 02-02-2025">
+      <option name="closed" value="true" />
+      <created>1738475145376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738475145376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding files on 01-02-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding files on 01-02-2025" />
+    <MESSAGE value="Adding files on 02-02-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding files on 02-02-2025" />
   </component>
 </project>

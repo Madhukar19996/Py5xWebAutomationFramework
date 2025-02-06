@@ -36,14 +36,15 @@ def test_vwo_ft_negative(setup):
     driver = setup
     Login_Page = LoginPage(driver=driver)
     Login_Page.free_trial_button_click()
-    take_screen_shot(driver=driver, name="test_vwo_ft_negative")
+
     free_trial_page = FreeTrialPage(driver=driver)
     free_trial_page.enter_free_trial_details_invalid("admin")
 
 
     error_msg_text = free_trial_page.get_error_message_text()
 
+    take_screen_shot(driver=driver, name="test_vwo_ft_negative")
     assert error_msg_text == "The email address you entered is incorrect."
 
-    time.sleep(3)
+    time.sleep(2)
     driver.close()
